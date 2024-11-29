@@ -135,6 +135,7 @@ img {
 
 .page__name {
     margin-left: 7px;
+    color: var(--bold-color);
     font-weight: 600;
 }
 
@@ -181,7 +182,7 @@ img {
 
 /* ======= Hero ======= */
 .hero {
-    margin: 76px 0 80px;
+    margin: 68px 0 80px;
 }
 
 .hero__content {
@@ -1158,6 +1159,10 @@ img {
     justify-content: space-between;
     width: 100%;
     margin-bottom: 54px;
+}
+
+.footer__item {
+    flex: 1;
 }
 
 .footer-item__title {
