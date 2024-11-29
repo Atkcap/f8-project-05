@@ -842,6 +842,14 @@ img {
 .blockquote__list {
     display: flex;
     align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.blockquote-list__wrap {
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
     column-gap: 30px;
 }
 
@@ -1092,6 +1100,10 @@ img {
     background: #fff;
 }
 
+.app__brand:hover {
+    opacity: 0.9;
+}
+
 .fa-brands {
     font-size: 2.5rem;
 }
@@ -1194,6 +1206,10 @@ img {
     caret-color: var(--primary-color);
 }
 
+.footer__input:focus {
+    border-color: var(--primary-color);
+}
+
 .footer__input::placeholder {
     opacity: 0.7;
 }
@@ -1203,6 +1219,7 @@ img {
     border-radius: 6px;
     background: var(--primary-color);
     border: none;
+    cursor: pointer;
 }
 
 .footer__link {
