@@ -1083,7 +1083,7 @@ img {
 .app__brand {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     column-gap: 8px;
     flex: 1;
     padding: 18px 32px;
